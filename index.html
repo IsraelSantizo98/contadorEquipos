@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1085598771.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Contador de Equipos</title>
+</head>
+<body>
+    <div id="elements" class="container d-flex">
+        <div id="contador" class="display-container d-flex borde">
+        </div>
+        <div class="btn-container d-flex borde seccion">
+            <div class="btn-sum borde">
+                <div class="btn d-flex" onclick="contadorClicks()"><i class="fas fa-plus"></i></div>
+            </div>
+            <div class="btn-min borde">
+                <div class="btn d-flex" onclick="restaClicks()"><i class="fas fa-minus"></i></div>
+            </div>
+        </div>
+        <div class="resetear">
+            <div class="btn-reset">
+                <div class="btn" onclick="resetearClicks()">Resetear</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
